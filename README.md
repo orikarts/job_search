@@ -9,7 +9,7 @@ flowchart LR
     P[Presentation<br/>UI, JobNotifier, main.dart] --> A[Application<br/>Use Cases]
     A --> D[Domain<br/>Entities, VacancyRepository]
     I[Infrastructure<br/>InMemoryVacancyRepository] -. implements .-> D
-    P -. DI у main.dart .-> I
+    P -. "DI у main.dart" .-> I
 ```
 
 Правило залежностей: стрілки спрямовані до Domain. Domain не імпортує жодного іншого шару.
