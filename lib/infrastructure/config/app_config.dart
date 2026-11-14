@@ -1,4 +1,4 @@
 class AppConfig {
-  static const String appName = 'Пошук роботи';
-  static const String storage = 'in_memory';
+  static const String appName = 'Вакансії UA';
+  static const String storage = 'json';
 }
